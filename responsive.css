@@ -1,4 +1,4 @@
-@media only screen  and (max-width : 1283px) and (min-width :769px){
+/* @media only screen  and (max-width : 1283px) {
  
 
     header .navbar .social {
@@ -116,55 +116,8 @@
 
 
     }  
-/* 
-    @media only screen  and (max-width:1920px) and (min-width:1380) {
-        .navbar-expand-sm .navbar-collapse {
-            display: flex !important;
-            width: 53%;
-            margin-left: -39px;
-        }
 
-        .About {
-            background-color: #ddd;
-            padding: 46px 0px 0px 0px !important;
-            width: 70%;
-        }
 
-        .Service {
-            background-color: #101010;
-            color: #fff;
-            width: 69%;
-        }
-
-        .skill {
-            background-color: #ddd;
-            width: 73%;
-        }
-
-        .Portfolio {
-            background-color: #191919;
-            color: #fff;
-            width: 72%;
-        }
-
-        .my-team {
-            text-align: center;
-            padding: 100px 0px;
-            overflow: hidden;
-            width: 72%;
-        }
-
-        .cv {
-            background-color: #ddd;
-            width: 72%;
-        }
-       .contact-us{
-           width: 70%;
-       } 
-      footer{
-          width: 78%;
-      } 
-    }    */
 @media only screen  and (max-width:710px){
         .my-team {
             text-align: center;
@@ -184,6 +137,40 @@
         }
 
     }  
+    @media (max-width: 443px){
+        .navbar-toggler.d-lg-none.collapsed {
+            margin-left: auto;
+            display: inline;
+            display: inline-block;
+            width: 17%;
+            margin-top: -25%;
+        }
+    }
+
+    @media (max-width: 419px) {
+        .button .btn {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            margin-bottom: 13px;
+            margin-left: -5px !important;
+        }.button .btn {
+            position: relative;
+            z-index: 2;
+            margin-top: 12px;
+            width: 100%;
+            margin-left: -18px;
+            margin-left: -16px;
+            margin-left: -12px !important;
+        }
+        .button {
+            display: inline;
+            margin: lef;
+             margin-left: -3px;
+            margin-left: 8px;
+            width: 122%;
+        }
+    }
 @media only screen  and (max-width:400px){
     .navbar-dark .navbar-toggler {
       
@@ -199,7 +186,7 @@
     .button {
         display: inline;
         margin: lef;
-        /* margin-left: -3px; */
+        
         margin-left: 8px;
         width: 122%;
     }
@@ -240,8 +227,8 @@
         width: 21%;
         border-bottom: 2px solid red;
         margin: auto;
-        /* height: 2px; */
-    }.skill .skill-test p {
+       height: 2px; 
+   }.skill .skill-test p {
         font-size: 16px;
         line-height: 26px;
         margin-top: 14px;
@@ -296,27 +283,4 @@
 
 
     }
-    @media (max-width: 419px) {
-        .button .btn {
-            position: relative;
-            z-index: 2;
-            width: 100%;
-            margin-bottom: 13px;
-            margin-left: -5px !important;
-        }.button .btn {
-            position: relative;
-            z-index: 2;
-            margin-top: 12px;
-            width: 100%;
-            margin-left: -18px;
-            margin-left: -16px;
-            margin-left: -12px !important;
-        }
-        .button {
-            display: inline;
-            margin: lef;
-            /* margin-left: -3px; */
-            margin-left: 8px;
-            width: 122%;
-        }
-    }
+     */
