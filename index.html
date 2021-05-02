@@ -17,8 +17,9 @@
      <!-- my style css    -->
     <link rel="icon" href="img/logo.png">
      <link rel="stylesheet" href="style.css"> 
-
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <link rel="stylesheet" href="responsive.css">
+
 
     <title>Monaim Mukul</title>
   </head>
@@ -82,14 +83,14 @@
     </header>
 
      <!-- banner area -->
-   <div class="banner">
+   <div class="banner overflow-hidden">
        <div class="row">
            <div class="col-lg-12">
              <div class="banner-text">
                  <p>WELCOME TO MY WORLD</p>
                  <h1>Hi, I’m Monaim Mukul</h1>
                  <h1
-                  class="text-danger ">Web Designer & Developer</h1>
+                  class="text-danger " id="type-writer"></h1>
              </div>
 
            </div>
@@ -145,7 +146,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="500">
              
              <div class="ser-box-item">
               <span><i class="fas fa-laptop" aria-hidden="true"></i></span>
@@ -153,14 +154,14 @@
               <h4>I throw myself down among the tall grach by the strame as I lie close to the earth</h4>
             </div>
              </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500">
               <div class="ser-box-item">
                 <span><i class="fab fa-wordpress-simple"></i></span>
                 <h2>Wordpress</h2>
                 <h4>I throw myself down among the tall grach by the strame as I lie close to the earth</h4>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="flip-left" data-aos-delay="500">
               <div class="ser-box-item">
                 <span><i class="fas fa-envelope-open-text"></i></span>
                 <h2>Digital Marketing</h2>
@@ -273,7 +274,7 @@
           </div>
             
          <div class="row py-5">
-           <div class="col-lg-4">
+           <div class="col-lg-4" data-aos="zoom-out-right">
              <div class="portfolio-item">
                <div class="img-item">
                  <img src="img/full.png" alt="">
@@ -287,7 +288,9 @@
 
            </div>
 
-           <div class="col-lg-4">
+           <div class="col-lg-4" data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="1000">
             <div class="portfolio-item">
               <div class="img-item">
                 <img src="img/Rock_valley2.png" alt="">
@@ -301,7 +304,7 @@
 
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="zoom-out-left">
             <div class="portfolio-item">
               <div class="img-item">
                 <img src="img/Sports_world.png" alt="">
@@ -418,7 +421,8 @@
  <section class="blog py-5" id="Blog">
   <div class="container">
       <div class="row">
-         <div class="col-lg-12 text-center">
+         <div class="col-lg-12 text-center" data-aos="fade-up"
+         data-aos-anchor-placement="top-bottom">
              <img src="img/ll.png" alt="">
              <h2 class="py-3">Read Our <span style="color:#F9004D;">Blog</h2>
              <p style="color:#ddd; font-weight:500;font-size:12px;">SOME OF THEASE STUFF UNDER</p>
@@ -429,7 +433,9 @@
       </div>
 
       <div class="row py-4">
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="500">
               <div class="blog-item mt-2">
                    <img src="img/heron-5394026_1920.jpg" alt="">
                    <p>January 17,2017</p>
@@ -437,7 +443,8 @@
                    <a style ="text-decoration: none; background-color:#F9004D ;color:white; padding:5px; border-radius: 10px; margin-top: 5px;" href="#">Read More</a>
               </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4"data-aos="fade-up"
+          data-aos-duration="500">
              <div class="blog-item mt-2">
                   <img src="img/highway-4494907_640.jpg" alt="">
                   <p>January 17,2017</p>
@@ -445,7 +452,8 @@
                   <a style ="text-decoration: none; background-color:#F9004D ;color:white; padding:5px; border-radius: 10px; margin-top: 5px;" href="#">Read More</a>
              </div>
          </div>
-         <div class="col-lg-4">
+         <div class="col-lg-4" data-aos="fade-left"
+         data-aos-duration="500">
              <div class="blog-item mt-2">
                   <img src="img/home-office-336377_640.jpg" alt="">
                   <p>January 17,2017</p>
@@ -553,10 +561,15 @@
     <!-- Popper.js first, then Bootstrap JS -->
     <script src="script.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script type="text/javascript">
+  <script type="text/javascript">
 (function() {
 emailjs.init("user_cpHL9AMxxDTd04TMbXUql");
 })();
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
