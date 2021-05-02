@@ -286,7 +286,9 @@
      */
 
 @media (max-width: 360px) {
-
+    body{
+        width: 100%;
+    }
     .banner .banner-text h1 {
         font-size: 36px;
         font-weight: 700;
