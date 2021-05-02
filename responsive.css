@@ -324,15 +324,22 @@
     .btn5 {
         margin-left: 6%;
     }
+    header .navbar {
+        background-color: #090909;
+        padding: 12px 22px;
+        position: fixed;
+      
+        width: 100%;
+    }
     .banner {
         background-image: url(img/img.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        
         height: 90vh;
         position: relative;
         color: #fff;
         z-index: 5;
         position: relative;
+        background-position: center;
     }
  }
