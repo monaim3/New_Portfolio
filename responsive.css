@@ -293,10 +293,10 @@
         line-height: 81px;
     }
     .navbar-brand {
-        width: 65%;
+        width: 45%;
     }
     .navbar-toggler {
-        width: 25%;
+        width: 16%;
     }
     .btn {
         margin-top: 11px;
@@ -328,7 +328,7 @@
         background-image: url(img/img.jpg);
         background-repeat: no-repeat;
         background-size: cover;
- 
+        
         height: 90vh;
         position: relative;
         color: #fff;
