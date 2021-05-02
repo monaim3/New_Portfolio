@@ -324,4 +324,15 @@
     .btn5 {
         margin-left: 6%;
     }
+    .banner {
+        background-image: url(img/img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+ 
+        height: 80vh;
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        position: relative;
+    }
  }
