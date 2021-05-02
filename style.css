@@ -725,17 +725,15 @@ footer{
 }
 footer p{
     color: #fff;
-    line-height: 66px;
-    font-size: 21px;
+    
+    margin-top: 15px;
+    font-size: 17px;
 }
 footer .social {
 
 padding: 0px 35px;
 
 margin-top: 11px;
-
-margin-left: 173px!important;
-
 margin-left: 32px;
 
 }

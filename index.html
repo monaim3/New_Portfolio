@@ -106,7 +106,7 @@
             <img src="img/monaim.jpg" alt="">
           </div>
           <div class="col-lg-6">
-            <div class="about-text mt-5">
+            <div class="about-text mt-5 mb-3">
                 <h1>About Me</h1>
                 <h2>I'm Monaim Mukul
                     </h2>
@@ -122,7 +122,7 @@
                   <a name="" id="" class="btn btn-danger" href="https://car-repair-71cb6.web.app/" role="button">View Work</a>
               </div>
             
-              <div class="button">
+              <div class="button ">
                 <a name="" id="" class="btn btn-danger ml-3" href="https://www.linkedin.com/in/monaim-mukul-5984a7180/" role="button">Contact Me</a>
             </div>
             
@@ -135,7 +135,7 @@
 
    </section>   
         <!-- Service section -->
-      <section class="Service py-5" id="service">
+      <section class="Service py-5  " id="service">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -149,7 +149,7 @@
              
              <div class="ser-box-item">
               <span><i class="fas fa-laptop" aria-hidden="true"></i></span>
-              <h2>Front-End Develope</h2>
+              <h2>Front-End Developent</h2>
               <h4>I throw myself down among the tall grach by the strame as I lie close to the earth</h4>
             </div>
              </div>
@@ -430,7 +430,7 @@
 
       <div class="row py-4">
           <div class="col-lg-4">
-              <div class="blog-item">
+              <div class="blog-item mt-2">
                    <img src="img/heron-5394026_1920.jpg" alt="">
                    <p>January 17,2017</p>
                    <h6>Some Awesome Blog Title Here</h6>
@@ -438,7 +438,7 @@
               </div>
           </div>
           <div class="col-lg-4">
-             <div class="blog-item">
+             <div class="blog-item mt-2">
                   <img src="img/highway-4494907_640.jpg" alt="">
                   <p>January 17,2017</p>
                   <h6>Some Awesome Blog Title Here</h6>
@@ -446,7 +446,7 @@
              </div>
          </div>
          <div class="col-lg-4">
-             <div class="blog-item">
+             <div class="blog-item mt-2">
                   <img src="img/home-office-336377_640.jpg" alt="">
                   <p>January 17,2017</p>
                   <h6>Some Awesome Blog Title Here</h6>
@@ -465,13 +465,13 @@
       <section class="cv py-5 text-center">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 ">
               <h1>Let's <span style="color:#F9004D;">Work </span>Together</h1>
               <p class="py-3">I am available for your company projects.</p>
-              <div class="button col-sm-12 mb-4">
+              <div class="button col-sm-12 ">
                 <a name="" id="" class="btn btn-danger" href="https://www.linkedin.com/in/monaim-mukul-5984a7180/" role="button"><i class="fa fa-paper-plane mr-2" aria-hidden="true"></i>Hire Me</a>
             </div>
-            <div class="button ml-4 col-sm-12 ">
+            <div class="button  ">
               <a name="" id="" class="btn btn-danger" href="https://drive.google.com/uc?export=download&id=1qOxqcFUXtGlZ1LM5vfS0gEp8n2CgvuyZ" role="button"><i class="fas fa-cloud-download-alt mr-2"></i>Download CV</a>
           </div>
             </div>
@@ -489,19 +489,19 @@
              <div class="input-area">
               <h3>Get In Touch</h3>
               
-                <input type="text" name="" id="" class="w-100 mt-4 py-2" placeholder="Name">  
-               <input type="email" name="" id="" class="w-100 mt-4 py-2" placeholder="Enter Email">  
+                <input type="text" name="" id="toName" class="w-100 mt-4 py-2" placeholder="Name">  
+               <input type="email" name="" id="fromEmail" class="w-100 mt-4 py-2" placeholder="Enter Email">  
                <div class="form-group">
                  
-                 <textarea class="form-control mt-4 py-5" name="" id="" rows="3" placeholder="Message"></textarea>
+                 <textarea class="form-control mt-4 py-5" name="" id="msg" rows="3" placeholder="Message"></textarea>
                </div>
-               <button type="button" class="btn btn-danger w-100 mt-5">Send</button>
+               <button onclick="sendMail()" type="button" class="btn btn-danger w-100 mt-5 mb-2">Send</button>
 
                
              </div>
             </div>
         <div class="col-lg-6">
-              <div class="contact-info ml-5">
+              <div class="contact-info  ">
                  <div class="one">
                   <h1><i class="fas fa-phone" aria-hidden="true"></i></h1>
                   <p>Phone :</p>
@@ -533,11 +533,11 @@
       <div class="container">
         <div class="row">
           
-            <div class="col-lg-6">
+            <div class="col-lg-7">
               <p>All &Copyright Reserved By Monaim Mukul</p>
             </div>
-            <div class="col-lg-6">
-              <div class="social ml-auto">
+            <div class="col-lg-5">
+              <div class="social ">
                 <a href="https://facebook.com/monaim.69.mukul"><i class="fab fa-facebook" aria-hidden="true"></i></a>
                   
                    <a href="https://github.com/monaim3"><i class="fab fa-github"></i></a>
@@ -551,6 +551,13 @@
      </footer>
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_cpHL9AMxxDTd04TMbXUql");
+})();
+</script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
   </body>
