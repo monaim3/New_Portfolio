@@ -285,16 +285,16 @@
     }
      */
 
-@media (max-width: 360px) {
+@media (max-width: 360px){
    
     .banner .banner-text h1 {
         font-size: 36px;
         font-weight: 700;
         line-height: 81px;
     }
-    /* .navbar-brand {
+    .navbar-brand {
         width: 45%;
-    } */
+    }
    
     .btn {
         margin-top: 11px;
