@@ -7,11 +7,10 @@ img{
 
    /* Header area */
 
-header{
-   
+/* header{
    
     z-index: 2;
-}   
+}    */
 
 header .navbar .social {
 
@@ -49,7 +48,7 @@ header .navbar{
 }
 header nav{
     
-    z-index: 3;
+    z-index: 6;
     
 }
 header .navbar .nav-btn{
