@@ -43,7 +43,7 @@ header .navbar{
     background-color:#090909;
     padding: 12px 22px;
     position: fixed;
-    overflow: hidden;
+   
     width: 100%;
 }
 header nav{
