@@ -11,12 +11,12 @@ img{
    
     z-index: 2;
 }    */
-
+ 
 header .navbar .social {
 
 padding: 0px 35px;
 
-/* line-height: 63px; */
+ line-height: 63px; 
 
 margin-top: 11px;
 }
