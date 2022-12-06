@@ -1,0 +1,58 @@
+
+
+@media only screen  and (max-width: 360px){
+   
+    .banner .banner-text h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 81px;
+    }
+    .navbar-brand {
+        width: 45%;
+    }
+   
+    .btn {
+        margin-top: 11px;
+    }
+    .battan.mx-auto {
+        width: 41%;
+        margin-top: 39px;
+    }
+    footer .social {
+        padding: 0px 35px;
+        margin-top: 11px;
+        
+    }
+    footer p {
+        color: #fff;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    footer .social {
+        padding: 0px 35px;
+        margin-top: 11px;
+        width: 92%;
+        margin: auto;
+    }
+    .btn5 {
+        margin-left: 6%;
+    }
+    header .navbar {
+        background-color: #090909;
+        padding: 12px 22px;
+        position: fixed;
+      
+        width: 100%;
+    }
+    .banner {
+        background-image: url(img/img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        position: relative;
+        color: #fff;
+        z-index: 5;
+        position: relative;
+        background-position: center;
+    }
+ }
