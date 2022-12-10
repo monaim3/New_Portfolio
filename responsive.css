@@ -1,16 +1,60 @@
 
+/* tab view */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+}
+/* mobile view*/
+@media only screen and (max-width: 688px) {
+    .navbar-brand {
+        width: 16%;
+       
+    }
+    header .nav-item {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 13px;
+        padding: 0 -18px;
+        width: 46px;
+        margin: 0 7px;
+    
+    }
+    header .navbar .social {
+     
+        display: none;
+    }
+    form.form-inline.my-2.my-lg-0 {
+        margin-left: 19%;
+    }
+    footer p {
+        color: #fff;
+        margin-top: 15px;
+        font-size: 17px;
+        text-align: center;
+    }
+    footer .social {
+      
+        margin-left: 32px;
+        margin: 0 auto;
+        width: 52%;
+    }
+} 
 
 @media only screen  and (max-width: 360px){
    
     .banner .banner-text h1 {
-        font-size: 36px;
+        font-size: 21px;
         font-weight: 700;
         line-height: 81px;
     }
-    .navbar-brand {
-        width: 45%;
+    .banner .banner-text {
+        position: absolute;
+        top: 30%;
+        left: 10%;
     }
    
+    header .navbar img {
+        width: 71%;
+    }
     .btn {
         margin-top: 11px;
     }
@@ -56,3 +100,5 @@
         background-position: center;
     }
  }
+
+
